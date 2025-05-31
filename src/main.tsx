@@ -6,27 +6,32 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import PageLayout from "./components/layout/pageLayout.tsx";
 import MenuPage from "./pages/menu.tsx";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: (
-      <PageLayout>
-        <App />
-      </PageLayout>
-    ),
-  },
-  {
-    path: "/menu",
-    element: (
-      <PageLayout>
-        <MenuPage />
-      </PageLayout>
-    ),
-  },
-]);
+const router = createBrowserRouter(
+	[
+		{
+			path: "/",
+			element: (
+				<PageLayout>
+					<App />
+				</PageLayout>
+			),
+		},
+		{
+			path: "/menu",
+			element: (
+				<PageLayout>
+					<MenuPage />
+				</PageLayout>
+			),
+		},
+	],
+	{
+		basename: "/website",
+	}
+);
 
 createRoot(document.getElementById("root")!).render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>
+	<StrictMode>
+		<RouterProvider router={router} />
+	</StrictMode>
 );
