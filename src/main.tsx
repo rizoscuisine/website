@@ -26,7 +26,7 @@ const router = createBrowserRouter(
 		},
 	],
 	{
-		basename: "/website",
+		basename: "/website/",
 	}
 );
 
