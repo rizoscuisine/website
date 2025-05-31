@@ -7,6 +7,10 @@ import parents from "/parents.jpeg";
 import ryan from "/ryan.jpeg";
 import edgar from "/edgar.jpeg";
 import lissette from "/lissette.jpeg";
+import burger from "/burger.jpeg";
+import bgvideo from "/placeholdervideo.mp4";
+import ubereats from "/ubereats.svg";
+import doordash from "/doordash.svg";
 
 //TODO: ADD MENU BUTTONS FOR DINNER AND BREAKFAST
 
@@ -101,7 +105,7 @@ function App() {
 					muted
 					playsInline
 				>
-					<source src="/placeholdervideo.mp4" type="video/mp4" />
+					<source src={bgvideo} type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>
 
@@ -120,7 +124,7 @@ function App() {
 
 				<div className="relative flex justify-center">
 					<img
-						src="/Rizos Burger.jpeg"
+						src={burger}
 						alt="4 loafs of bread, banana, strawberry, and blueberry dish"
 						loading="lazy"
 						className="shadow-lg w-full object-cover h-[28rem]"
@@ -155,14 +159,14 @@ function App() {
 								className="flex flex-col md:flex-row gap-2 w-max place-items-center mx-auto p-2 border-2 border-[var(--color-brown)]"
 							>
 								<p>Order With</p>
-								<img src="/DoorDash_Logo.svg" alt="DoorDash Logo" className="w-max h-4" />
+								<img src={doordash} alt="DoorDash Logo" className="w-max h-4" />
 							</a>
 							<a
 								href="https://www.ubereats.com/store/rizos-cuisine/W6en2-K8Sz6J8HXss4grCQ?diningMode=DELIVERY&sc=SEARCH_SUGGESTION"
 								className="flex flex-col md:flex-row gap-2 w-max place-items-center p-2 mx-auto border-2 border-[var(--color-brown)]"
 							>
 								<p>Order With</p>
-								<img src="/Uber_Eats_2020_logo.svg" alt="Uber Eats Logo" className="w-max h-4" />
+								<img src={ubereats} alt="Uber Eats Logo" className="w-max h-4" />
 							</a>
 						</div>
 					</div>
