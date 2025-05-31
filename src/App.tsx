@@ -2,6 +2,8 @@ import "./App.css";
 import ReviewSlider from "./components/home/reviewslider";
 import FamilySlider from "./components/home/aboutSlider";
 
+//File imports
+
 //TODO: ADD MENU BUTTONS FOR DINNER AND BREAKFAST
 
 function App() {
@@ -62,22 +64,22 @@ function App() {
 
 	const aboutUsSection = [
 		{
-			image: "public/parents.jpeg",
+			image: "/parents.jpeg",
 			description:
 				"Rizos Cuisine is the passion project of Rizo and Irma, a couple whose heritage traces back to Guanajuato, Mexico. Rizo, who began working in restaurants at a young age, honed his craft as an executive chef at The Living Room on Main in downtown Dunedin before pursuing his lifelong dream of owning his own restaurant. At home, Rizo and Irma shared their love for cooking with their children—Edgar, Lissette, and Ryan—creating homemade meals that blended American and Mexican flavors. Now, with Irma by his side, Rizos Cuisine brings together those same traditions, offering a menu that reflects their family’s rich culinary heritage.",
 		},
 		{
-			image: "public/edgar.jpeg",
+			image: "/edgar.jpeg",
 			description:
 				"Edgar, is the eldest son of the Rizo family and a proud graduate of the University of Florida. A dedicated Gators fan, he never misses a chance to cheer for their football, baseball, and basketball teams. Outside of work, he enjoys golfing with friends, going for runs, and working on cars—a true hands-on enthusiast. However, nothing matters more to him than family. Whether he’s helping out at Rizos Cuisine or working at his primary job in the medical field, Edgar is always balancing his passions with his deep-rooted commitment to those he loves.",
 		},
 		{
-			image: "public/lissette.jpeg",
+			image: "/lissette.jpeg",
 			description:
 				"Lissette, the middle child of the Rizo family, known for her adventurous spirit and love for travel. No matter where she goes, family remains at the heart of everything she does. She cherishes the moments spent with loved ones and makes the most of every opportunity to connect with them. Passionate about her career, Lissette thrives as a dental assistant, finding fulfillment in helping others through her work in the dental field.",
 		},
 		{
-			image: "public/ryan.jpeg",
+			image: "/ryan.jpeg",
 			description:
 				"Ryan, is the youngest of the Rizo family. While he may be quieter than his siblings, his warmth and loyalty shine through in the way he values family and friendships. In his free time, he enjoys playing video games, unwinding on family vacations, and spending time with his friends. Whether at home or out and about, Ryan finds joy in the simple moments that bring him closer to the people he cares about.",
 		},
