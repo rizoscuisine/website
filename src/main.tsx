@@ -4,7 +4,6 @@ import "./index.css";
 import App from "./App.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import PageLayout from "./components/layout/pageLayout.tsx";
-import MenuPage from "./pages/menu.tsx";
 
 const router = createBrowserRouter([
 	{
@@ -12,14 +11,6 @@ const router = createBrowserRouter([
 		element: (
 			<PageLayout>
 				<App />
-			</PageLayout>
-		),
-	},
-	{
-		path: "/menu",
-		element: (
-			<PageLayout>
-				<MenuPage />
 			</PageLayout>
 		),
 	},

@@ -2,25 +2,13 @@
 @import "tailwindcss";
 
 :root {
-  --color-main-black: #0a0908;
-  --color-gunmetal: #22333b;
-  --color-brown: #a9927d;
+	--color-main-black: #0a0908;
+	--color-gunmetal: #22333b;
+	--color-brown: #a9927d;
 }
 
 body {
-  font-family: "Montserrat", "Times New Roman", Times, serif;
-  color: var(--color-main-black);
-  background-color: rgb(255, 248, 235);
-}
-
-@keyframes slideInFromTop {
-  from {
-    transform: translateY(-50px);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+	font-family: "Montserrat", "Times New Roman", Times, serif;
+	color: var(--color-main-black);
+	background-color: rgb(255, 248, 235);
 }
